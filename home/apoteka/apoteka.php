@@ -11,7 +11,7 @@
     $andol =  $_POST["kolicina1"];
     $aspirin =  $_POST["kolicina2"];
     $vitaminC =  $_POST["kolicina3"];
-    echo "<p> Ukupna kolicina je " . ($andol+$aspirin+$vitaminC) . "<br>";
+    echo "Ukupna kolicina je " . ($andol+$aspirin+$vitaminC) . "<br>";
     echo $andol . " Andol" . "<br>";
     echo $aspirin . " Aspirin" . "<br>";
     echo $vitaminC . " Vitamin C" . "<br>";
